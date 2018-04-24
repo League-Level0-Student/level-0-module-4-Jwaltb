@@ -18,12 +18,15 @@ public class HappyPet {
 					new String[] { "Walk", "Feed", "Play" }, null);
 System.out.println(task);
 			// 5. Use user input to call the appropriate method created in step 4.
+if (task==2)
+	Walk();
+}
 //feed equals 1
 //walk equals 2
-//play equals 		// 6. If you determine the happiness level is large enough, tell the
+//play equals 0		// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
 
-	}
+	
 	static void Walk() {
 		happinessLevel += 5;
 		JOptionPane.showMessageDialog(null, answer + " is hungry from the walk.");
